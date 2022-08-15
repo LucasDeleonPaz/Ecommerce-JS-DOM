@@ -1,0 +1,369 @@
+body{
+    font-family: 'Inter';
+    width: 100vw;
+}
+
+
+.headerInit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-left: 8vw;
+}
+
+nav{
+    width: 24vw;
+    margin-right: 8vw;
+}
+
+
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    cursor: pointer;     
+}
+
+li {
+    list-style: none;
+    color: #828282;
+}
+
+
+.current-set {
+    font-weight: 700;
+    color: #828282;
+    cursor: pointer;
+}
+
+.conteinerPag {
+    position: absolute;
+    width: 84vw;
+    display: flex;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 19px;
+}
+
+.lateralInfo{
+    width: 24vw;
+    height: 454px;
+}
+
+.superiorAsside {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    width: 70%;
+    background-color: #F5F5F5;
+    height: 50px;
+
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F5;
+    font-family: 'Inter';
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #828282;
+    margin-left: 14px;
+}
+
+.asideButton {
+    width: 28%;
+    height: 50px;
+    background-color: #6B54DE;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+.asideButton:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.caixaCarrinho {
+    width: inherit;
+    height: 50px;
+    background-color: #6B54DE;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carrinhoStatus{
+    width: inherit;
+    height: 344px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.textoCarEmpt{
+    width: inherit;
+    height: 20px;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    color: #333333;
+    border: #F5F5F5;
+
+}
+
+.textoCarAdd{
+    width: inherit;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #828282;
+    display: flex;
+    align-items: center;
+}
+
+.containerSec {
+    width: 58vw;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.containerProd{
+    width: 31%;
+    height: 47%;
+    border: 1px solid #F5F5F5;
+}
+
+.containerProd:hover {
+    border: 2px solid #2E245E;
+    box-sizing: border-box;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.imagemProd {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    height: 45%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.prodDesc {
+    display: flex;
+    flex-direction: column; 
+}
+
+.caixaTexto2 {
+    margin-top: 20px;
+}
+
+.tipoProd {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #2E245E;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.TextoCaixaProd{
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    color: #828282;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 33px;
+}
+
+.precoProd {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    color: #2E245E;
+}
+
+.caixaBotao {
+    width: inherit;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+.adicionaCarrinho {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #828282;
+    background-color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+.adicionaCarrinho:hover {
+    font-weight: 700;
+    color:#6B54DE;
+}
+
+
+b {
+    display: none;
+}
+
+.box-product-buy{
+    width: inherit;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px; 
+}
+
+.img-box-buy{
+    width: 76px;
+    height: auto;
+    margin-top: 2px;
+   
+}
+
+.h2-box-buy{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+
+.internal-Box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.price-box-buy{
+    width: 50%;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E245E;
+}
+
+.remove-btn-buy{
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    width: 100px;
+    margin-left: 17px;
+    margin-top: 5px;
+    background-color: #F5F5F5;
+}
+
+.box-value-final {
+    width: 100%;
+    height: 126px;
+    background-color: #333333;
+    display: none;
+    flex-direction: column;
+}
+
+.box-itens-buy {
+    margin-top: 30px;
+    margin-left: 17px;
+    margin-right: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qtd-itens {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.qtd-itens1 {
+    color: #828282;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.int-buy-box {
+    display: inline;
+    width: 100%;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E245E;
+    margin-left: 17px;
+}
+
+.cifrao {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    color: #2E245E;
+}

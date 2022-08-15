@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce | Weartake</title>
+</head>
+<body>
+    <header class="headerInit">
+        <h1>Weartake</h1>
+        <nav >
+            <ul id="listSup">
+                <li class="current-set">Todos</li>
+                <li>Acessórios</li>
+                <li>Calçados</li>
+                <li>Camisetas</li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main class="conteinerPag">
+        <section class="containerSec" id="containerSec">            
+        </section>
+        <aside class="lateralInfo">
+            <div class="superiorAsside">
+                <div id="search-bar" class="search-bar">
+                    <input type="text" value="" placeholder="Digite aqui sua pesquisa">
+                </div>
+                <button type="submit" id="btn-search" class="asideButton">Pesquisar</button>
+            </div>
+            <div id="carBuyRepresentation" class="carrinhoCompras">
+                <div class="caixaCarrinho"><p>Carrinho de Compras</p></div>
+                <div id="status-car" class="carrinhoStatus">
+                    <div id="empty-car" class="textoCarEmpt"><p>Carrinho Vazio</p></div>
+                    <div id="empty-text-car" class="textoCarAdd"><p>Adicione itens</p></div>
+                </div>
+            </div>
+            <div  id="boxValueFinal" class="box-value-final">
+                <div class="box-itens-buy">
+                    <small class="qtd-itens" >Quantidade:</small>
+                    <small id="qtdItens" class="qtd-itens1"></small>
+                </div>
+                <div class="box-itens-buy">
+                    <small class="qtd-itens">Preço:</small>
+                    <small id="priceItens" class="qtd-itens1"></small>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
